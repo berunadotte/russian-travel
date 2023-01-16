@@ -9,3 +9,9 @@
       max-width: 440px;
   }
 }
+
+@media screen and (max-width: 732px) {
+  .place__image {
+      width: 100%;
+  }
+}

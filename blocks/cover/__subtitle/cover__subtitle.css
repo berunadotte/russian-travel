@@ -13,3 +13,16 @@
   top: 50%;
   transform: translate(-50%, 58%);
 }
+
+@media screen and (max-width: 768px) {
+  .intro__text {
+    margin: 0 16px;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  .cover__subtitle {
+    font-size: 14px;
+    line-height: 16px;
+  }
+}

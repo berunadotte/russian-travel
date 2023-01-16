@@ -10,9 +10,20 @@
   justify-content: space-between;
 }
 
-
 @media screen and (max-width: 1024px) {
   .footer {
-      margin: 0 48px 0 48px;
+    margin: 0 48px 0 48px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .footer {
+    margin: 0 24px 0 24px;
+  }
+}
+
+@media screen and (max-width: 732px) {
+  .footer {
+    margin: 0 24px 0 24px;
   }
 }

@@ -11,3 +11,10 @@
   padding-top: 8px;
   margin-right: auto;
 }
+
+
+@media screen and (max-width: 768px) {
+  .lead__caption {
+      margin-left: 24px;
+  }
+}
