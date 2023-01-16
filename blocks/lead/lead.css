@@ -8,3 +8,15 @@
   justify-content: center;
   padding-top: 56px;
 }
+
+@media screen and (max-width: 1024px) {
+  .lead {
+    max-width: 928px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .lead {
+    max-width: 768px;
+  }
+}
