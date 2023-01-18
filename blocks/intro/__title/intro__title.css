@@ -15,5 +15,20 @@
   .intro__title {
     font-size: 32px;
     line-height: 35px;
+    padding-top: 88px;
   }
 }
+
+@media screen and (max-width: 768px) {
+  .intro__title {
+    padding-top: 64px;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  .intro__title {
+    margin-left: 16px;
+  }
+}
+
+

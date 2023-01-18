@@ -21,6 +21,7 @@
       grid-template-columns: repeat(2, 1fr);
       gap: 16px;
       margin: 0 24px 0 24px;
+      padding-top: 88px;
     }
   }
 
@@ -28,5 +29,6 @@
     .photo-grid {
       grid-template-columns: 1fr;
       margin: 0 16px 0 16px;
+      padding-top: 64px;
     }
   }
