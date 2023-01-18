@@ -1,5 +1,7 @@
 @media screen and (max-width: 732px) {
   .footer__links {
+    font-family: 'Inter';
+    font-style: normal;
     display: flex;
     flex-direction: column;
     padding-top: 32px;
@@ -13,4 +15,4 @@
   .footer__links {
     padding-top: 0;
   }
-  }
+}
