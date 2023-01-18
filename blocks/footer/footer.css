@@ -16,10 +16,11 @@
   }
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 780px) {
   .footer {
     margin: 0 24px 0 24px;
     padding-top: 88px;
+
   }
 }
 
@@ -27,5 +28,10 @@
   .footer {
     margin: 0 24px 0 24px;
     padding-top: 64px;
+    height: auto;
+    align-items: flex-start;
+
+  flex-flow: column nowrap;
+
   }
 }

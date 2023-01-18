@@ -3,9 +3,10 @@
   max-width: 984px;
   height: auto;
   display: flex;
-  flex-direction: row;
-  flex-wrap: wrap;
+  flex-direction: column;
+  flex-wrap: nowrap;
   justify-content: center;
+  align-items: center;
   padding-top: 56px;
 }
 

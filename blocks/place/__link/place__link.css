@@ -6,6 +6,8 @@
   line-height: 22px;
   text-decoration-line: underline;
   color: #ffffff;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-font-smoothing: antialiased;
 }
 
 .place__link:hover {
@@ -15,6 +17,5 @@
 @media screen and (max-width: 500px) {
   .place__link {
     margin-left: 16px;
-    
   }
 }

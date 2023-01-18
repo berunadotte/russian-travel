@@ -12,6 +12,8 @@
   left: 50%;
   top: 50%;
   transform: translate(-50%, 58%);
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-font-smoothing: antialiased;
 }
 
 @media screen and (max-width: 768px) {
@@ -24,5 +26,7 @@
   .cover__subtitle {
     font-size: 14px;
     line-height: 16px;
+    width: 258px;
+    transform: translate(-50%, 5%);
   }
 }
