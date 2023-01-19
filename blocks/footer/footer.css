@@ -13,24 +13,31 @@
 
 @media screen and (max-width: 1024px) {
   .footer {
-    margin: 0 48px 0 48px;
+    margin: 0 48px;
   }
 }
 
 @media screen and (max-width: 780px) {
   .footer {
-    margin: 0 24px 0 24px;
+    margin: 0 24px;
     padding-top: 88px;
   }
 }
 
 @media screen and (max-width: 732px) {
   .footer {
-    margin: 0 24px 0 24px;
+    margin: 0 24px;
     padding-top: 64px;
     height: auto;
     align-items: flex-start;
-
+    max-width: 189px; 
+    /* сделал 189px вместо 186px чтобы не было переноса имени */
     flex-flow: column nowrap;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  .footer {
+    margin: 0 16px;
   }
 }
