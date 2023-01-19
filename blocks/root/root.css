@@ -1,11 +1,12 @@
 .root {
-    background: #2A2C2F;
-    max-width: 1280px;
-    margin: 0 auto;
+  background-color: #2a2c2f;
+  background-clip: padding-box;
+  /* max-width: 1280px; */
+  margin: 0 auto;
 }
 
 @media screen and (max-width: 560px) {
-    .root {
-      width: 100%;
-    }
+  .root {
+    width: 100%;
   }
+}
