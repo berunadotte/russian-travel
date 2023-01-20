@@ -21,5 +21,6 @@
   .places__list {
     padding-top: 64px;
     padding-bottom: 16px;
+    margin: 0;
   }
 }

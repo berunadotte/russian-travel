@@ -6,14 +6,12 @@
   line-height: 22px;
   text-align: center;
   color: #ffffff;
-  position: absolute;
-  z-index: 2;
   width: 360px;
-  left: 50%;
-  top: 50%;
-  transform: translate(-50%, 58%);
   -moz-osx-font-smoothing: grayscale;
   -webkit-font-smoothing: antialiased;
+  /* padding-bottom: 245px; */
+  margin: 0;
+  z-index: 2;
 }
 
 @media screen and (max-width: 768px) {
@@ -27,6 +25,5 @@
     font-size: 14px;
     line-height: 16px;
     width: 258px;
-    transform: translate(-50%, 5%);
   }
 }

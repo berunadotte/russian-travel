@@ -1,12 +1,9 @@
 .cover {
-  margin: 0 auto;
-  max-width: 1184px;
-  height: 20%;
   position: relative;
-  background: url(../../images/cover-trains.jpg);
-  background-size: cover;
+  max-width: 1184px;
+  margin: 0 auto;
 }
 
 .cover:hover {
-  opacity: 0.3;
+  background-color: rgba(0,0,0, 0.8)
 }

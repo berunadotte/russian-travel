@@ -1,11 +1,16 @@
-.cover__background {
+/* .cover__background {
+  background: no-repeat center/100% url(../../../images/cover-trains.jpg);
+  background-size: cover;
+  -moz-background-size: cover;
+  -webkit-background-size: cover;
+  height: 100%;
   width: 100%;
-  position: relative;
+  position: absolute;
   top: 0;
-  z-index: 0;
-  opacity: 0.8;
+  left: 0;
+  opacity: 0.3;
 }
 
 .cover__background:hover {
-  opacity: 0.3;
-}
+  opacity: 0.8;
+} */

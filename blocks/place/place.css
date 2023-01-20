@@ -20,23 +20,19 @@
   .place {
     max-width: 720px;
     column-gap: 28px;
-    margin: 0;
     padding-bottom: 72px;
   }
 }
 
 @media screen and (max-width: 732px) {
   .place {
-    max-width: 928px;
     grid-template-columns: 1fr;
-    margin: 0 48px 0 48px;
     padding-bottom: 88px;
   }
 }
 
 @media screen and (max-width: 500px) {
   .place {
-    margin: 0;
     padding-bottom: 50px;
     gap: 0;
   }
