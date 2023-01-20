@@ -1,5 +1,5 @@
 .place__paragraph {
-  font-family: 'Inter';
+  font-family: 'Inter', Arial, Helvetica, sans-serif;
   font-style: normal;
   font-weight: 400;
   font-size: 18px;
@@ -9,8 +9,8 @@
   -moz-osx-font-smoothing: grayscale;
   -webkit-font-smoothing: antialiased;
   margin-bottom: 26px;
+  width: 100%;
 }
-
 
 @media screen and (max-width: 768px) {
   .place__paragraph {
@@ -18,8 +18,9 @@
   }
 }
 
-@media screen and (max-width: 500px) {
+@media screen and (max-width: 340px) {
   .place__paragraph {
     margin: 0 16px;
+    max-width: 288px;
   }
 }

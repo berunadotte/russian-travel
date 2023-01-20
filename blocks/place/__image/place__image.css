@@ -3,10 +3,9 @@
   grid-row-start: 2;
 }
 
-
 @media screen and (max-width: 1024px) {
   .place__image {
-      max-width: 440px;
+    max-width: 440px;
   }
 }
 
@@ -18,14 +17,13 @@
 
 @media screen and (max-width: 732px) {
   .place__image {
-      width: 100%;
-      grid-row-start: 3;
+    width: 100%;
+    grid-row-start: 3;
   }
 }
 
 @media screen and (max-width: 500px) {
   .place__image {
-      padding: 32px 0;
+    padding: 32px 0;
   }
 }
-

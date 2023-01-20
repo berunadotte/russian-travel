@@ -5,58 +5,44 @@
   background-size: cover;
   -moz-background-size: cover;
   -webkit-background-size: cover;
-
   display: flex;
   flex-flow: column nowrap;
   align-items: center;
   text-align: center;
   text-decoration: none;
-
   padding: 245px 312px;
   position: relative;
 }
 
 .cover__link::before {
-  content: "";
+  content: '';
   position: absolute;
   top: 0;
   bottom: 0;
   left: 0;
   right: 0;
- 
-  background-color: rgba(0,0,0, 0.3);
+  background-color: rgba(0, 0, 0, 0.3);
 }
 
 .cover__link:hover::before {
-  background-color: rgba(0,0,0, 0.8);
+  background-color: rgba(0, 0, 0, 0.8);
   transition: 0.5s;
 }
 
-
-/* @media screen and (max-width: 1186px) {
+@media screen and (max-width: 1184px) {
   .cover__link {
-    max-width: 1024px;
-    max-height: 640px;
+    padding: 195px 232px;
   }
 }
 
-@media screen and (max-width: 1024px) {
+@media screen and (max-width: 970px) {
   .cover__link {
-    max-width: 768px;
-    max-height: 480px;
+    padding: 115px 104px;
   }
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 714px) {
   .cover__link {
-    max-width: 480px;
-    max-height: 300px;
+    padding: 33px 16px;
   }
 }
-
-@media screen and (max-width: 480px) {
-  .cover__link {
-    max-width: 320px;
-    max-height: 200px;
-  }
-} */

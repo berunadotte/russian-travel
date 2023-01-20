@@ -12,23 +12,11 @@
   margin: 0;
   z-index: 2;
 }
-/* 
-@media screen and (max-width: 1024px) {
-  .cover__title {
-    width: 70%;
-  }
-}
 
-@media screen and (max-width: 768px) {
-  .cover__title {
-    width: 95%;
-  }
-}
-
-@media screen and (max-width: 550px) {
+@media screen and (max-width: 600px) {
   .cover__title {
     font-size: 32px;
     line-height: 35px;
-    width: 288px;
+    width: 248px;
   }
-} */
+}
