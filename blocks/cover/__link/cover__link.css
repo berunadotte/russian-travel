@@ -26,7 +26,7 @@
   background-color: rgba(0,0,0, 0.3);
 }
 
-.cover__link:hover {
+.cover__link:hover::before {
   background-color: rgba(0,0,0, 0.8)
 }
 
