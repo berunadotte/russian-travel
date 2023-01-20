@@ -9,22 +9,19 @@
   max-width: 560px;
   -moz-osx-font-smoothing: grayscale;
   -webkit-font-smoothing: antialiased;
-  /* padding-top: 245px; */
   margin: 0;
   z-index: 2;
 }
-
+/* 
 @media screen and (max-width: 1024px) {
   .cover__title {
     width: 70%;
-    /* padding-top: 195px; */
   }
 }
 
 @media screen and (max-width: 768px) {
   .cover__title {
     width: 95%;
-    /* padding-top: 115px; */
   }
 }
 
@@ -33,6 +30,5 @@
     font-size: 32px;
     line-height: 35px;
     width: 288px;
-    /* padding-top: 33px; */
   }
-}
+} */

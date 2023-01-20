@@ -9,12 +9,11 @@
   width: 360px;
   -moz-osx-font-smoothing: grayscale;
   -webkit-font-smoothing: antialiased;
-  /* padding-bottom: 245px; */
   margin: 0;
   z-index: 2;
 }
 
-@media screen and (max-width: 768px) {
+/* @media screen and (max-width: 768px) {
   .cover__subtitle {
     margin: 0 16px;
   }
@@ -26,4 +25,4 @@
     line-height: 16px;
     width: 258px;
   }
-}
+} */
