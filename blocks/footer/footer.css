@@ -26,14 +26,12 @@
   .footer {
     padding-top: 64px;
     align-items: flex-start;
-    max-width: 189px;
-    /* если сделать макс ширину меньше, то просиходит перенос имени */
     flex-flow: column nowrap;
   }
 }
 
 @media screen and (max-width: 500px) {
   .footer {
-    margin: 0 16px;
+    margin: 0 118px 0 16px;
   }
 }

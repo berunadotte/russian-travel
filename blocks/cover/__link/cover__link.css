@@ -21,11 +21,11 @@
   bottom: 0;
   left: 0;
   right: 0;
-  background-color: rgba(0, 0, 0, 0.3);
+  background-color: rgba(42, 44, 47, 0.3);
 }
 
 .cover__link:hover::before {
-  background-color: rgba(0, 0, 0, 0.8);
+  background-color: rgba(42, 44, 47, 0.8);
   transition: 0.5s;
 }
 

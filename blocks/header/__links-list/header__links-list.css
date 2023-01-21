@@ -1,0 +1,7 @@
+.header__links-list {
+  margin-left: 18px;
+}
+
+.header__links-list:first-of-type {
+  margin-left: 0;
+}
